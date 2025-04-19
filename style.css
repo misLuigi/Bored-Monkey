@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: "Sora", sans-serif;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  /*color gradient from 'uigradients.com'*/
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {
+  padding: 30px 100px;
+  text-shadow: 1px 2px 10px whitesmoke;
+  border: 2px solid beige;
+  border-radius: 10px;
+  background-color: grey;
+  font-size: 48px;
+}
+
+.fa-robot {
+  font-size: 64px;
+  color: red;
+}
+
+.paragraph-container {
+  padding: 30px 95px;
+  text-shadow: 2px 2px 5px whitesmoke;
+  border: 2px solid beige;
+  border-radius: 10px;
+  background-color: grey;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.activity-container {
+  width: 595px;
+  height: 80px;
+  padding: 10px;
+  text-shadow: 0px 2px 5px red;
+  border: 2px solid beige;
+  background-color: grey;
+  margin: 40px 0;
+  text-align: center;
+}
+
+button {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0;
+  background: #b92b27;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-size: 1em;
+  font-weight: bold;
+  text-shadow: 2px 1px 5px white;
+  border: none;
+  box-shadow: 2px 3px 5px black;
+  cursor: pointer;
+}
+
+h3 {
+  text-shadow: 0px 0px 5px whitesmoke;
+  padding: 20px 0;
+}
+
+footer {
+  padding: 20px;
+  font-size: 2em;
+  text-align: center;
+  background: #bdc3c7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
